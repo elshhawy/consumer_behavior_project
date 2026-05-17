@@ -1,0 +1,7 @@
+Model,Type,Accuracy,ROC AUC,Adaptability,Segmentation,RL Decisions
+SVM,Baseline ML,0.933,0.97,Static,❌,❌
+XGBoost,Baseline ML,0.93,0.983,Static,❌,❌
+CatBoost,Baseline ML,0.942,0.987,Static,❌,❌
+BPANN,Baseline ML,0.93,0.968,Static,❌,❌
+Deep Learning,Deep Learning,0.921,0.968,Static,❌,❌
+Hybrid Framework,Hybrid (DL+Seg+RL),0.942,0.987,✅ Real-time,✅ Auto,✅ Dynamic

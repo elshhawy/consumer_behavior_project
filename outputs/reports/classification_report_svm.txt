@@ -1,0 +1,14 @@
+Classification Report - SVM
+==================================================
+              precision    recall  f1-score   support
+
+ No Purchase       0.96      0.91      0.93      2085
+    Purchase       0.91      0.96      0.93      2084
+
+    accuracy                           0.93      4169
+   macro avg       0.93      0.93      0.93      4169
+weighted avg       0.93      0.93      0.93      4169
+
+ROC AUC: 0.970
+Accuracy: 0.933
+10-Fold CV AUC: 0.966 ± 0.003

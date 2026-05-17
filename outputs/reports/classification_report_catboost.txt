@@ -1,0 +1,14 @@
+Classification Report - CatBoost
+==================================================
+              precision    recall  f1-score   support
+
+ No Purchase       0.94      0.95      0.94      2085
+    Purchase       0.95      0.94      0.94      2084
+
+    accuracy                           0.94      4169
+   macro avg       0.94      0.94      0.94      4169
+weighted avg       0.94      0.94      0.94      4169
+
+ROC AUC: 0.987
+Accuracy: 0.942
+10-Fold CV AUC: 0.988 ± 0.002

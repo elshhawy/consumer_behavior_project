@@ -1,0 +1,14 @@
+Classification Report - XGBoost
+==================================================
+              precision    recall  f1-score   support
+
+ No Purchase       0.93      0.93      0.93      2085
+    Purchase       0.93      0.93      0.93      2084
+
+    accuracy                           0.93      4169
+   macro avg       0.93      0.93      0.93      4169
+weighted avg       0.93      0.93      0.93      4169
+
+ROC AUC: 0.983
+Accuracy: 0.930
+10-Fold CV AUC: 0.984 ± 0.002
